@@ -1,309 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="29">
+<CheatTable CheatEngineTableVersion="31">
   <Forms>
     <UDF1 Class="TCEForm" Encoding="Ascii85">b7Ej%2nldAU:MM2b.}cxWeIh0Gi32eO*Ft]W?Ph7%{mcIVgA6t9Fkwal,PNTnNpI$=7,zGoLEqjnV-i7R=ffx00</UDF1>
   </Forms>
   <CheatEntries>
-    <CheatEntry>
-      <ID>591</ID>
-      <Description>"SCUS_942.44 ALPHA (08/1998) &lt;old&gt;"</Description>
-      <Options moHideChildren="1" moManualExpandCollapse="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>592</ID>
-          <Description>"META"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>593</ID>
-              <Description>"GAME_BEGINNING_OFFSET(WITHOUT TYPE[first 2 bytes]) + OFFSET[WITHOUT TYPE] = ACTUAL_OFFSET"</Description>
-              <LastState Value="" RealAddress="00000000"/>
-              <Color>FF0000</Color>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>594</ID>
-              <Description>"BEGINNING OF THE GAME?"</Description>
-              <ShowAsHex>1</ShowAsHex>
-              <Color>0000FF</Color>
-              <VariableType>Byte</VariableType>
-              <Address>mednafen_psx_hw_libretro.dll+764BF0</Address>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>595</ID>
-          <Description>"GLOBAL"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>634</ID>
-              <Description>"LEVEL"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>885</ID>
-                  <Description>"LEVEL"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7CDBE0</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>886</ID>
-                  <Description>"TIME (On walk levels: FF=Normal, 7F=Frozen)"</Description>
-                  <ShowAsHex>1</ShowAsHex>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7CDCA8</Address>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>96</Key>
-                      </Keys>
-                      <Value>7f</Value>
-                      <ID>0</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>97</Key>
-                      </Keys>
-                      <Value>ff</Value>
-                      <ID>1</ID>
-                    </Hotkey>
-                  </Hotkeys>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>600</ID>
-              <Description>"PLAYER (ON "WALK" LEVELS)"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>603</ID>
-                  <Description>"Crash Walking Speed (glb) (-1 from release)"</Description>
-                  <VariableType>2 Bytes</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C11A6</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>610</ID>
-                  <Description>"Crash (NonSpinning) Air Control Speed (glb) (-1 from release)"</Description>
-                  <VariableType>2 Bytes</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C11BE</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>604</ID>
-                  <Description>"Crash Spinning Air Control Speed (glb)"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C11D6</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>606</ID>
-                  <Description>"Crash Sliding Speed (glb)"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1233</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>609</ID>
-                  <Description>"Crash Crawling Speed (glb) (+1.5 from release)"</Description>
-                  <VariableType>2 Bytes</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1266</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>611</ID>
-                  <Description>"Climbing Speed"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C127E</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>605</ID>
-                  <Description>"Crash Sliding on Slime Speed (glb)"</Description>
-                  <VariableType>2 Bytes</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1292</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>607</ID>
-                  <Description>"Crash Running Speed (glb) (-1 from release)"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1326</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>601</ID>
-                  <Description>"TREX Walking Speed"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1356</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>602</ID>
-                  <Description>"TREX Air Control Speed"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C136E</Address>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>888</ID>
-              <Description>"GAME INTERNAL CLOCK"</Description>
-              <ShowAsHex>1</ShowAsHex>
-              <VariableType>4 Bytes</VariableType>
-              <Address>mednafen_psx_hw_libretro.dll+79FD2A</Address>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>701</ID>
-          <Description>"MAPS"</Description>
-          <Options moHideChildren="1" moManualExpandCollapse="1"/>
-          <LastState Value="" RealAddress="00000000"/>
-          <GroupHeader>1</GroupHeader>
-          <CheatEntries>
-            <CheatEntry>
-              <ID>724</ID>
-              <Description>"WARP ROOM"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>519</ID>
-                  <Description>"Crash"</Description>
-                  <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+8172C0</Address>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>887</ID>
-                  <Description>"NEODYNE SYSTEMS"</Description>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>522</ID>
-                      <Description>"Warp Code"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80AD21</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>720</ID>
-              <Description>"INTRO WARP ROOM"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>702</ID>
-              <Description>"INTRO"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>884</ID>
-              <Description>"GAME OVER"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>861</ID>
-              <Description>"BOSSES"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>868</ID>
-                  <Description>"BOSS 2"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>862</ID>
-                  <Description>"BOSS 1"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>878</ID>
-                  <Description>"BOSS 5"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>870</ID>
-                  <Description>"BOSS 3"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>763</ID>
-              <Description>"LEVELS"</Description>
-              <Options moHideChildren="1" moManualExpandCollapse="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>821</ID>
-                  <Description>"LEVEL 11"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>529</ID>
-                      <Description>"Bone Yard secret"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+7D5508</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>530</ID>
-                      <Description>"Bone Yard secret"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+7D5514</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>842</ID>
-                  <Description>"LEVEL 17"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>532</ID>
-                      <Description>"Beta0_Blimps destroyed"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+7CDF41</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-          </CheatEntries>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
     <CheatEntry>
       <ID>1985</ID>
       <Description>"SCUS_942.44 ALPHA (08/1998)"</Description>
@@ -361,24 +61,6 @@
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>mednafen_psx_hw_libretro.dll+7CDCA8</Address>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>96</Key>
-                      </Keys>
-                      <Value>7f</Value>
-                      <ID>0</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>97</Key>
-                      </Keys>
-                      <Value>ff</Value>
-                      <ID>1</ID>
-                    </Hotkey>
-                  </Hotkeys>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>1993</ID>
@@ -414,126 +96,18 @@
                       <Description>"CAMERA Pitch"</Description>
                       <VariableType>2 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+7CAAB9</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>186</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>187</Key>
-                          </Keys>
-                          <Value>1</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>186</Key>
-                          </Keys>
-                          <Value>4</Value>
-                          <ID>2</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>187</Key>
-                          </Keys>
-                          <Value>4</Value>
-                          <ID>3</ID>
-                        </Hotkey>
-                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>1998</ID>
                       <Description>"CAMERA Yaw"</Description>
                       <VariableType>2 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+7CAABC</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>192</Key>
-                          </Keys>
-                          <Value>20</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>222</Key>
-                          </Keys>
-                          <Value>20</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>192</Key>
-                          </Keys>
-                          <Value>940</Value>
-                          <ID>2</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>222</Key>
-                          </Keys>
-                          <Value>940</Value>
-                          <ID>3</ID>
-                        </Hotkey>
-                      </Hotkeys>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>1999</ID>
                       <Description>"CAMERA Roll"</Description>
                       <VariableType>2 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+7CAAC0</Address>
-                      <Hotkeys>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>188</Key>
-                          </Keys>
-                          <Value>20</Value>
-                          <ID>0</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>190</Key>
-                          </Keys>
-                          <Value>20</Value>
-                          <ID>1</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Increase Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>188</Key>
-                          </Keys>
-                          <Value>2055</Value>
-                          <ID>2</ID>
-                        </Hotkey>
-                        <Hotkey>
-                          <Action>Decrease Value</Action>
-                          <Keys>
-                            <Key>13</Key>
-                            <Key>190</Key>
-                          </Keys>
-                          <Value>2055</Value>
-                          <ID>3</ID>
-                        </Hotkey>
-                      </Hotkeys>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -556,42 +130,6 @@
                           <Description>"CAMERA x"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>mednafen_psx_hw_libretro.dll+7CAAAD</Address>
-                          <Hotkeys>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>37</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>0</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>39</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>1</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>37</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>2</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>39</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>3</ID>
-                            </Hotkey>
-                          </Hotkeys>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>2003</ID>
@@ -613,42 +151,6 @@
                           <Description>"CAMERA y"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>mednafen_psx_hw_libretro.dll+7CAAB1</Address>
-                          <Hotkeys>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>33</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>0</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>34</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>1</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>33</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>2</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>34</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>3</ID>
-                            </Hotkey>
-                          </Hotkeys>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>2006</ID>
@@ -670,42 +172,6 @@
                           <Description>"CAMERA z"</Description>
                           <VariableType>2 Bytes</VariableType>
                           <Address>mednafen_psx_hw_libretro.dll+7CAAB5</Address>
-                          <Hotkeys>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>40</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>0</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>38</Key>
-                              </Keys>
-                              <Value>100</Value>
-                              <ID>1</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Increase Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>40</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>2</ID>
-                            </Hotkey>
-                            <Hotkey>
-                              <Action>Decrease Value</Action>
-                              <Keys>
-                                <Key>13</Key>
-                                <Key>38</Key>
-                              </Keys>
-                              <Value>500</Value>
-                              <ID>3</ID>
-                            </Hotkey>
-                          </Hotkeys>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>2009</ID>
@@ -747,38 +213,6 @@
                   <Description>"CAMERA TYPE"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>mednafen_psx_hw_libretro.dll+7CAB18</Address>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Activate</Action>
-                      <Keys>
-                        <Key>12</Key>
-                      </Keys>
-                      <ID>0</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>12</Key>
-                      </Keys>
-                      <Value>0</Value>
-                      <ID>1</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Deactivate</Action>
-                      <Keys>
-                        <Key>46</Key>
-                      </Keys>
-                      <ID>2</ID>
-                    </Hotkey>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>46</Key>
-                      </Keys>
-                      <Value>1</Value>
-                      <ID>3</ID>
-                    </Hotkey>
-                  </Hotkeys>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2015</ID>
@@ -791,6 +225,33 @@
                   <Description>"camera path node"</Description>
                   <VariableType>4 Bytes</VariableType>
                   <Address>mednafen_psx_hw_libretro.dll+7CAB9C</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2519</ID>
+              <Description>"FRAME BY FRAME MODE"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2520</ID>
+                  <Description>"Frame by frame mode (off=0, on=2) (Pressing Start will set this to 0)"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C564C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2521</ID>
+                  <Description>"Something about Frame by frame mode 1"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C589E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2522</ID>
+                  <Description>"Something about Frame by frame mode 2"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C589F</Address>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -881,7 +342,7 @@
                   <ID>2030</ID>
                   <Description>"Crash Sliding on Slime Speed (glb)"</Description>
                   <VariableType>2 Bytes</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+7C1296</Address>
+                  <Address>mednafen_psx_hw_libretro.dll+7C1292</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2031</ID>
@@ -947,16 +408,6 @@
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Byte</VariableType>
                   <Address>mednafen_psx_hw_libretro.dll+7C4CBA</Address>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Set Value</Action>
-                      <Keys>
-                        <Key>99</Key>
-                      </Keys>
-                      <Value>ff</Value>
-                      <ID>0</ID>
-                    </Hotkey>
-                  </Hotkeys>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2041</ID>
@@ -1228,6 +679,30 @@
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
+              <ID>2504</ID>
+              <Description>"First controller 1"</Description>
+              <VariableType>Byte</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+7CA965</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2505</ID>
+              <Description>"Second controller 1"</Description>
+              <VariableType>Byte</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+7CA9B5</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2507</ID>
+              <Description>"First controller 2"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+96CA40</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2506</ID>
+              <Description>"Second controller 2"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+96CA68</Address>
+            </CheatEntry>
+            <CheatEntry>
               <ID>2080</ID>
               <Description>"Crash Gamma (glb)"</Description>
               <VariableType>Byte</VariableType>
@@ -1476,6 +951,13 @@
                       <VariableType>4 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+8525A4</Address>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>522</ID>
+                      <Description>"Warp Code"</Description>
+                      <ShowAsHex>1</ShowAsHex>
+                      <VariableType>Byte</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+80AD21</Address>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -1608,7 +1090,7 @@
                   <ID>2139</ID>
                   <Description>"COCO (remember that scale is 4915)"</Description>
                   <VariableType>Byte</VariableType>
-                  <Address>mednafen_psx_hw_libretro.dll+80ABE0</Address>
+                  <Address>mednafen_psx_hw_libretro.dll+80AE1C</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2140</ID>
@@ -1917,46 +1399,6 @@
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
-                <CheatEntry>
-                  <ID>2187</ID>
-                  <Description>"BOSS 5"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2188</ID>
-                      <Description>"B5 Neo"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804674</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2189</ID>
-                      <Description>"B5 Player Controller"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804AEC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2190</ID>
-                      <Description>"Neo Hoverboard"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805618</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2191</ID>
-                      <Description>"B5 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811644</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2192</ID>
-                      <Description>"LV.NEOCRTX CRASH ANIM"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811704</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
@@ -1966,529 +1408,6 @@
               <LastState Value="" RealAddress="00000000"/>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
-                <CheatEntry>
-                  <ID>2194</ID>
-                  <Description>"LEVEL 1"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2195</ID>
-                      <Description>"AkuAku"</Description>
-                      <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                      <LastState Value="" RealAddress="00000000"/>
-                      <GroupHeader>1</GroupHeader>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>2196</ID>
-                          <Description>"L1 AkuAku"</Description>
-                          <VariableType>Byte</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+8064EC</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>2197</ID>
-                          <Description>"AKUAKU INVINCIBLE FUNCTION"</Description>
-                          <ShowAsHex>1</ShowAsHex>
-                          <VariableType>Byte</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+8B5B18</Address>
-                        </CheatEntry>
-                      </CheatEntries>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2198</ID>
-                      <Description>"L1 first Butterfly"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804368</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2199</ID>
-                      <Description>"L1 Portal number 1"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8044A9</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2200</ID>
-                      <Description>"L1 CLOCK"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8045A4</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2201</ID>
-                      <Description>"L1 first Box"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8047E0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2202</ID>
-                      <Description>"L1 box2"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804C58</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2203</ID>
-                      <Description>"L1 First wooden "chair""</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804E94</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2204</ID>
-                      <Description>"L1 first CHICKEN"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804E94</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2205</ID>
-                      <Description>"L1 first GOAT"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8050D0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2206</ID>
-                      <Description>"L1 first Apple"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+807908</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2207</ID>
-                      <Description>"L1 top-right box before first checkpoint"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+809850</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2208</ID>
-                      <Description>"L1 First Checkpoint"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80AEA8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2209</ID>
-                      <Description>"L1 bottom-right box before first checkpoint"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80BC10</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2210</ID>
-                      <Description>"L1 PORTAL OUT SPHERE"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80BE4C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2211</ID>
-                      <Description>"L1 PORTAL OUT CORONA"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80C500</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2212</ID>
-                      <Description>"L1 Portal number 2"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80D16D</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2213</ID>
-                      <Description>"L1 PORTAL OUT SHINE"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80D268</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2214</ID>
-                      <Description>"Fake Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80DB58</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2215</ID>
-                      <Description>"L1 Object related to the SPHERE"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80ED38</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2216</ID>
-                      <Description>"L1 Desired portal number"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80EE79</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2217</ID>
-                      <Description>"L1 Last crate"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80F1B0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2218</ID>
-                      <Description>"L1 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8119EC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2219</ID>
-                      <Description>"L1 Clock 31 to 35 = Clock to Special box"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8F4613</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2220</ID>
-                  <Description>"LEVEL 3"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2221</ID>
-                      <Description>"Coco"</Description>
-                      <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                      <LastState Value="" RealAddress="00000000"/>
-                      <GroupHeader>1</GroupHeader>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>2222</ID>
-                          <Description>"Coco"</Description>
-                          <VariableType>Byte</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+811A3C</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>2223</ID>
-                          <Description>"Free movements [E9]"</Description>
-                          <ShowAsHex>1</ShowAsHex>
-                          <VariableType>Byte</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+811AE8</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>2224</ID>
-                          <Description>"8015F8FC=Coco 801AF8FC/803AF8FC/801AE854=Crash 8024F8FC=AkuAku"</Description>
-                          <ShowAsHex>1</ShowAsHex>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+811B04</Address>
-                        </CheatEntry>
-                      </CheatEntries>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2225</ID>
-                      <Description>"Pura"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+806778</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2226</ID>
-                      <Description>"L3 AkuAku"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+808B38</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2227</ID>
-                  <Description>"LEVEL 4"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2228</ID>
-                      <Description>"L4 Red Platform LOCKED"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80770C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2229</ID>
-                      <Description>"L4 Red Platform UNLOCKED"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+809D08</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2230</ID>
-                      <Description>"L4 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811C68</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2231</ID>
-                  <Description>"LEVEL 6"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2232</ID>
-                      <Description>"L6 Clock"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804794</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2233</ID>
-                      <Description>"Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811BDC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2234</ID>
-                      <Description>"L6 Bazooka shoot function"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8C15EA</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2235</ID>
-                      <Description>"L6 First wizard"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8049D0</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2236</ID>
-                  <Description>"LEVEL 7"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2237</ID>
-                      <Description>"Eight before last crate"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8094AC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2238</ID>
-                      <Description>"Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811AC0</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2239</ID>
-                  <Description>"LEVEL 9"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2240</ID>
-                      <Description>"L9 First Lever"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805744</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2241</ID>
-                      <Description>"L9 AkuAku"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805DF8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2242</ID>
-                      <Description>"L9 Last Door's button on the LEFT side of the map"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+806270</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2243</ID>
-                      <Description>"L9 First door (w button)"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8078C8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2244</ID>
-                      <Description>"L9 First door button"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80D228</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2245</ID>
-                      <Description>"L9 Last Actual Monkey [right] on the LEFT side of the map"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80D8DC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2246</ID>
-                      <Description>"L9 Last Monkey [RIGHT]"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80DF90</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2247</ID>
-                      <Description>"L9 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811BE8</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2248</ID>
-                  <Description>"LEVEL 10"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2249</ID>
-                      <Description>"Coco"</Description>
-                      <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                      <LastState Value="" RealAddress="00000000"/>
-                      <GroupHeader>1</GroupHeader>
-                      <CheatEntries>
-                        <CheatEntry>
-                          <ID>2250</ID>
-                          <Description>"COCO"</Description>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+811A6C</Address>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>2251</ID>
-                          <Description>"801521A4=CocoRidingPura 801530A4=DiesForReal 80151CB4/80151CB8/80151CBC=GammaBlink 80151CD0=LandAnim 80151CD8=JumpAnim 80151CDC=Fall"</Description>
-                          <ShowAsHex>1</ShowAsHex>
-                          <VariableType>4 Bytes</VariableType>
-                          <Address>mednafen_psx_hw_libretro.dll+811B34</Address>
-                        </CheatEntry>
-                      </CheatEntries>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2252</ID>
-                  <Description>"LEVEL 11"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2253</ID>
-                      <Description>"L11 After First Egg First Box"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804960</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2254</ID>
-                      <Description>"L11 First Egg"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804B9C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2255</ID>
-                      <Description>"L11 AkuAku"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8086F0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2256</ID>
-                      <Description>"L11 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811DA8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2257</ID>
-                      <Description>"L11 Egg Hit Function"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+882554</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2258</ID>
-                      <Description>"L11 Egg Hit Function &gt; JLE to Spawn function I think"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8825F5</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2259</ID>
-                      <Description>"L11 Egg Hit Function &gt; JLE to Spawn function I think &gt; Spawned object initial anim frame"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+882612</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2260</ID>
-                  <Description>"LEVEL 14"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2261</ID>
-                      <Description>"CAR close to Crash [LEFT]"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804AC8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2262</ID>
-                      <Description>"L14 Flag"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80871C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2263</ID>
-                      <Description>"L14 AkuAku"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+808958</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2264</ID>
-                      <Description>"L14 Sky"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+808D74</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2265</ID>
-                      <Description>"L14 Sky2"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+808DD0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2266</ID>
-                      <Description>"L14 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811F10</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2267</ID>
-                  <Description>"LEVEL 15"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2268</ID>
-                      <Description>"L15 last FROG"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80FFAC</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2269</ID>
-                      <Description>"L15 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+811A80</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2270</ID>
-                  <Description>"LEVEL 16"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2271</ID>
-                      <Description>"L16 Nitro 1"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804558</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2272</ID>
-                      <Description>"L16 Nitro 2"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+807680</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
                 <CheatEntry>
                   <ID>2273</ID>
                   <Description>"LEVEL 17"</Description>
@@ -2500,123 +1419,7 @@
                       <ID>2274</ID>
                       <Description>"Blimps destroyed"</Description>
                       <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+81B914</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2275</ID>
-                  <Description>"LEVEL 20"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2276</ID>
-                      <Description>"L20 Lever #1"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+804DF0</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2277</ID>
-                      <Description>"L20 Door #1"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80502C</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2278</ID>
-                      <Description>"L20 Bonus platform"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+806448</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2279</ID>
-                      <Description>"L20 BONUS Wireframe box #2"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+807864</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2280</ID>
-                      <Description>"L20 Bonus Action Box 1"</Description>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8099E8</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2281</ID>
-                  <Description>"LEVEL 21"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2282</ID>
-                      <Description>"L21 Player Controller"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8058FC</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2283</ID>
-                  <Description>"LEVEL 22"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2284</ID>
-                      <Description>"L22 One of the cars near Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805B68</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2285</ID>
-                      <Description>"L22 One of the cars near Crash 2"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805DA4</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2286</ID>
-                      <Description>"L22 AkuAku"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+809108</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2287</ID>
-                      <Description>"L22 First Cop Car"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+80ABD8</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2288</ID>
-                      <Description>"L22 Crash"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+812248</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>2289</ID>
-                      <Description>"L22 Crash Model Settings"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+8217F8</Address>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>2290</ID>
-                  <Description>"LEVEL 30"</Description>
-                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>2291</ID>
-                      <Description>"L30 78 to F8 = Static camera (still tracks player)"</Description>
-                      <ShowAsHex>1</ShowAsHex>
-                      <VariableType>4 Bytes</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+7C19E8</Address>
+                      <Address>mednafen_psx_hw_libretro.dll+7CDF41</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -3057,6 +1860,12 @@ luacall(timer_ch_value.destroy())
                   <Description>"LEVEL"</Description>
                   <VariableType>Byte</VariableType>
                   <Address>mednafen_psx_hw_libretro.dll+7CEB60</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2526</ID>
+                  <Description>"Current frame (resets when player respawns after dying)"</Description>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>1889ED54</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2338</ID>
@@ -3505,6 +2314,33 @@ luacall(timer_ch_value.destroy())
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
+              <ID>2523</ID>
+              <Description>"FRAME BY FRAME MODE"</Description>
+              <Options moHideChildren="1" moManualExpandCollapse="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2512</ID>
+                  <Description>"Frame by frame mode (off=0, on=2) (Pressing Start will set this to 0)"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C659C</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2513</ID>
+                  <Description>"Something about Frame by frame mode 1"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C681E</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2514</ID>
+                  <Description>"Something about Frame by frame mode 2"</Description>
+                  <VariableType>Byte</VariableType>
+                  <Address>mednafen_psx_hw_libretro.dll+7C681F</Address>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
               <ID>1657</ID>
               <Description>"CHECKPOINT"</Description>
               <Options moHideChildren="1" moManualExpandCollapse="1"/>
@@ -3933,6 +2769,30 @@ luacall(timer_ch_value.destroy())
                   <Address>mednafen_psx_hw_libretro.dll+7CB897</Address>
                 </CheatEntry>
               </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2508</ID>
+              <Description>"First controller 1"</Description>
+              <VariableType>Byte</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+7CB8ED</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2509</ID>
+              <Description>"Second controller 1"</Description>
+              <VariableType>Byte</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+7CB93D</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2510</ID>
+              <Description>"First controller 2"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+96CA40</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2511</ID>
+              <Description>"Second controller 2"</Description>
+              <VariableType>4 Bytes</VariableType>
+              <Address>mednafen_psx_hw_libretro.dll+96CA68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>1684</ID>
@@ -4877,6 +3737,24 @@ luacall(timer_ch_value.destroy())
                       <VariableType>Byte</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+8F5A33</Address>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>2397</ID>
+                      <Description>"L1 First jump crate"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+807D84</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2398</ID>
+                      <Description>"L1 Second jump crate"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+809A90</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2399</ID>
+                      <Description>"L1 Third jump crate"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+8076D0</Address>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -5029,6 +3907,21 @@ luacall(timer_ch_value.destroy())
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>2500</ID>
+                  <Description>"LEVEL 8"</Description>
+                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2501</ID>
+                      <Description>"L8 Crash"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+813138</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>1878</ID>
                   <Description>"LEVEL 9"</Description>
                   <Options moHideChildren="1" moManualExpandCollapse="1"/>
@@ -5124,16 +4017,23 @@ luacall(timer_ch_value.destroy())
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
+                      <ID>2525</ID>
+                      <Description>"Not sure if the egg is the dino itself."</Description>
+                      <LastState Value="" RealAddress="00000000"/>
+                      <Color>FF0000</Color>
+                      <GroupHeader>1</GroupHeader>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>2524</ID>
+                      <Description>"L11 First egg"</Description>
+                      <VariableType>Byte</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+80CAFC</Address>
+                    </CheatEntry>
+                    <CheatEntry>
                       <ID>1892</ID>
                       <Description>"L11 After First Egg First Box"</Description>
                       <VariableType>4 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+805D80</Address>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>1893</ID>
-                      <Description>"L11 First Egg"</Description>
-                      <VariableType>Byte</VariableType>
-                      <Address>mednafen_psx_hw_libretro.dll+805FBC</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>1894</ID>
@@ -5296,6 +4196,12 @@ luacall(timer_ch_value.destroy())
                       <VariableType>4 Bytes</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+81CD34</Address>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>2394</ID>
+                      <Description>"Blimps destroyed 2"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+81CAE8</Address>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
@@ -5432,6 +4338,21 @@ luacall(timer_ch_value.destroy())
                       <Description>"L25 Crash"</Description>
                       <VariableType>Byte</VariableType>
                       <Address>mednafen_psx_hw_libretro.dll+813174</Address>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2396</ID>
+                  <Description>"LEVEL 24"</Description>
+                  <Options moHideChildren="1" moManualExpandCollapse="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>2395</ID>
+                      <Description>"Bombers detroyed"</Description>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>mednafen_psx_hw_libretro.dll+818868</Address>
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
@@ -8458,6 +7379,87 @@ luacall(timer_ch_value.destroy())
           <VariableType>4 Bytes</VariableType>
           <Address>mednafen_psx_hw_libretro.dll+897608</Address>
         </CheatEntry>
+        <CheatEntry>
+          <ID>2400</ID>
+          <Description>"PICKUPS"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2494</ID>
+          <Description>"NON-PICKUPS"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2497</ID>
+          <Description>"FLYING PLAYERS"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2496</ID>
+          <Description>"NON-PLAYERS"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2495</ID>
+          <Description>"SPECIAL OBJECTS"</Description>
+          <Options moHideChildren="1" moManualExpandCollapse="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2492</ID>
+              <Description>"Game object?"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>5</ByteLength>
+              <Address>mednafen_psx_hw_libretro.dll+965C34</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2493</ID>
+              <Description>"Last special object?"</Description>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>5</ByteLength>
+              <Address>mednafen_psx_hw_libretro.dll+96D1B9</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2498</ID>
+          <Description>"HUDs"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2499</ID>
+          <Description>"NON-FLYING PLAYERS or NON-BIKE PLAYERS or ENVIRONMENTS"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>2527</ID>
+      <Description>"CHEAT_TABLE_INFO"</Description>
+      <Options moHideChildren="1" moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FF0080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2528</ID>
+          <Description>"AUTHOR: FrancescoBis"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
   </CheatEntries>
@@ -8467,7 +7469,7 @@ luacall(timer_ch_value.destroy())
       <Elements>
         <Element Offset="0" Vartype="4 Bytes" Bytesize="4" Description="Appearance (AFFECTS NextObject in the LINKED LIST 0048)" DisplayMethod="Unsigned Integer"/>
         <Element Offset="4" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="8" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Hexadecimal"/>
+        <Element Offset="8" Vartype="4 Bytes" Bytesize="4" Description="Class data or Object data" DisplayMethod="Hexadecimal"/>
         <Element Offset="12" Vartype="4 Bytes" Bytesize="4" Description="NonHitAction class (controls)" DisplayMethod="Hexadecimal"/>
         <Element Offset="16" Vartype="4 Bytes" Bytesize="4" Description="HitAction class" DisplayMethod="Hexadecimal"/>
         <Element Offset="20" Vartype="4 Bytes" Bytesize="4" Description="is animating?" DisplayMethod="Hexadecimal"/>
@@ -8516,7 +7518,7 @@ luacall(timer_ch_value.destroy())
         <Element Offset="204" Vartype="4 Bytes" Bytesize="4" Description="HitAction (The Time Trial text gets hit by the &quot;sub digits&quot;)" DisplayMethod="Hexadecimal"/>
         <Element Offset="208" Vartype="4 Bytes" Bytesize="4" Description="Function offset set when the player is de/spawning?" DisplayMethod="Hexadecimal"/>
         <Element Offset="212" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Hexadecimal"/>
-        <Element Offset="220" Vartype="4 Bytes" Bytesize="4" Description="A counter" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="220" Vartype="4 Bytes" Bytesize="4" Description="General counter" DisplayMethod="Unsigned Integer"/>
         <Element Offset="224" Vartype="4 Bytes" Bytesize="4" Description="Value of the last time the counter at E0 has been useful" DisplayMethod="Unsigned Integer"/>
         <Element Offset="228" Vartype="4 Bytes" Bytesize="4" Description="HEALTH / BOX TEXTURE(0-7) / Desired Portal Size" DisplayMethod="Hexadecimal"/>
         <Element Offset="232" Vartype="4 Bytes" Bytesize="4" Description="Model Settings / Strings list" DisplayMethod="Hexadecimal"/>
@@ -8549,9 +7551,9 @@ luacall(timer_ch_value.destroy())
         <Element Offset="336" Vartype="4 Bytes" Bytesize="4" Description="SlotMachineBox NextSlot? / UFO racers speed" DisplayMethod="Hexadecimal"/>
         <Element Offset="340" Vartype="4 Bytes" Bytesize="4" Description="SPECIAL [Monkey Apples / NeoCorSystems Enemy/Portal type ((dec) from 10, +5 to 25)]" DisplayMethod="Hexadecimal"/>
         <Element Offset="344" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Hexadecimal"/>
-        <Element Offset="348" Vartype="4 Bytes" Bytesize="4" Description="Arabic monkey offset x / knife_ass animation?" DisplayMethod="Hexadecimal"/>
+        <Element Offset="348" Vartype="4 Bytes" Bytesize="4" Description="Something about jump crate jumps count (increases of 200 each jump) / Arabic monkey offset x / knife_ass animation?" DisplayMethod="Hexadecimal"/>
         <Element Offset="350" Vartype="Byte" Bytesize="1" Description="0" DisplayMethod="Signed Integer"/>
-        <Element Offset="352" Vartype="4 Bytes" Bytesize="4" Description="Pickup type / Something with Cicada light / Arabic monkey offset y / Platform speed" DisplayMethod="Hexadecimal"/>
+        <Element Offset="352" Vartype="4 Bytes" Bytesize="4" Description="Pickup type / For jump crates=value of the General counter at the first jump (If too much time has passed the next jump will break the crate) / Something with Cicada light / Arabic monkey offset y / Platform speed" DisplayMethod="Hexadecimal"/>
         <Element Offset="356" Vartype="4 Bytes" Bytesize="4" Description="SlotMachineBox Timer / Platform offset x" DisplayMethod="Hexadecimal"/>
         <Element Offset="360" Vartype="4 Bytes" Bytesize="4" Description="SlotMachineBox CurrSlot / Falling tile speed 2" DisplayMethod="Hexadecimal"/>
         <Element Offset="364" Vartype="4 Bytes" Bytesize="4" Description="Platform path width" DisplayMethod="Hexadecimal"/>
@@ -9534,14 +8536,13 @@ luacall(timer_ch_value.destroy())
         <Element Offset="188" Vartype="4 Bytes" Bytesize="4" RLECount="3" DisplayMethod="Unsigned Integer"/>
         <Element Offset="200" Vartype="4 Bytes" Bytesize="4" Description="FULL TIME + LEVEL DRAW" DisplayMethod="Hexadecimal"/>
         <Element Offset="200" Vartype="Byte" Bytesize="1" Description="Time (FF=Normal, 7F=NonPlayerStop)" DisplayMethod="Hexadecimal"/>
-        <Element Offset="202" Vartype="Byte" Bytesize="1" Description="Camera Path target" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="202" Vartype="Byte" Bytesize="1" Description="Camera target and player control (Goes in cycle) (0=Target is player, No control; 1=Target is player, Control; 2=Target is not player, No control; 3=Target is not player, Control)" DisplayMethod="Unsigned Integer"/>
         <Element Offset="204" Vartype="2 Bytes" Bytesize="2" Description="Deaths/Respawns counter 1" DisplayMethod="Hexadecimal"/>
         <Element Offset="208" Vartype="4 Bytes" Bytesize="4" Description="Apples manager" DisplayMethod="Hexadecimal"/>
         <Element Offset="212" Vartype="4 Bytes" Bytesize="4" Description="Lives manager" DisplayMethod="Hexadecimal"/>
         <Element Offset="216" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="220" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Hexadecimal"/>
-        <Element Offset="224" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="228" Vartype="Byte" Bytesize="1" DisplayMethod="Signed Integer"/>
+        <Element Offset="220" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Hexadecimal"/>
+        <Element Offset="228" Vartype="4 Bytes" Bytesize="4" Description="100(hex) = Can finish laps (bike levels)" DisplayMethod="Hexadecimal"/>
         <Element Offset="232" Vartype="4 Bytes" Bytesize="4" Description="In-pause function" DisplayMethod="Hexadecimal"/>
         <Element Offset="236" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
         <Element Offset="240" Vartype="4 Bytes" Bytesize="4" Description="Apple e Life managers parent" DisplayMethod="Hexadecimal"/>
@@ -9550,10 +8551,12 @@ luacall(timer_ch_value.destroy())
         <Element Offset="252" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Unsigned Integer"/>
         <Element Offset="260" Vartype="Byte" Bytesize="1" DisplayMethod="Signed Integer"/>
         <Element Offset="264" Vartype="4 Bytes" Bytesize="4" Description="Last played level (00000063=Default)" DisplayMethod="Hexadecimal"/>
-        <Element Offset="268" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="268" Vartype="4 Bytes" Bytesize="4" Description="CHEATS, BITWISE AND = OPEN_LEVELS=0x1, ALLOW_CAM=0x10; NO_CHEATS=resets to 0" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="272" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
         <Element Offset="276" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Hexadecimal"/>
         <Element Offset="284" Vartype="4 Bytes" Bytesize="4" Description="AkuAku Level (Glb)" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="288" Vartype="4 Bytes" Bytesize="4" RLECount="2" DisplayMethod="Hexadecimal"/>
+        <Element Offset="288" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Hexadecimal"/>
+        <Element Offset="292" Vartype="4 Bytes" Bytesize="4" Description="Exit portals taken (cumulative) (L1=800, L3=400, L11=10000, L14=100000, L31=0, Tiny Tiger=64, Dingodile=8, N. Tropy=10, N. Gin=20, N. Cortex=80)" DisplayMethod="Hexadecimal"/>
         <Element Offset="296" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
         <Element Offset="300" Vartype="4 Bytes" Bytesize="4" Description="Crates manager" DisplayMethod="Hexadecimal"/>
         <Element Offset="304" Vartype="4 Bytes" Bytesize="4" RLECount="3" DisplayMethod="Unsigned Integer"/>
@@ -9565,7 +8568,9 @@ luacall(timer_ch_value.destroy())
         <Element Offset="336" Vartype="4 Bytes" Bytesize="4" Description="Something about playerORcamera coordinates" DisplayMethod="Unsigned Integer"/>
         <Element Offset="340" Vartype="4 Bytes" Bytesize="4" Description="Something about playerORcamera coordinates" DisplayMethod="Hexadecimal"/>
         <Element Offset="344" Vartype="4 Bytes" Bytesize="4" RLECount="3" Description="Something about playerORcamera coordinates" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="356" Vartype="4 Bytes" Bytesize="4" RLECount="3" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="356" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="360" Vartype="2 Bytes" Bytesize="2" Description="X-shearing" DisplayMethod="Signed Integer"/>
+        <Element Offset="364" Vartype="2 Bytes" Bytesize="2" Description="Y-shearing" DisplayMethod="Signed Integer"/>
         <Element Offset="368" Vartype="8 Bytes" Bytesize="8" Description="Gems &lt;types or amount&gt; array (1 byte each) (The first byte is set to 8 if the WR gem is picked) (The last 2 bytes are the colored gems)" DisplayMethod="Hexadecimal"/>
         <Element Offset="379" Vartype="4 Bytes" Bytesize="4" Description="CurrentlyOwningGemID" DisplayMethod="Unsigned Integer"/>
         <Element Offset="384" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
@@ -9581,7 +8586,7 @@ luacall(timer_ch_value.destroy())
         <Element Offset="476" Vartype="4 Bytes" Bytesize="4" Description="Viewport shrink amount" DisplayMethod="Unsigned Integer"/>
         <Element Offset="480" Vartype="4 Bytes" Bytesize="4" Description="Can pause" DisplayMethod="Unsigned Integer"/>
         <Element Offset="484" Vartype="4 Bytes" Bytesize="4" RLECount="4" DisplayMethod="Unsigned Integer"/>
-        <Element Offset="500" Vartype="4 Bytes" Bytesize="4" Description="Time passed since respawn" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="500" Vartype="4 Bytes" Bytesize="4" Description="Current frame (resets when player respawns after dying)" DisplayMethod="Unsigned Integer"/>
         <Element Offset="504" Vartype="4 Bytes" Bytesize="4" RLECount="2" Description="A function" DisplayMethod="Hexadecimal"/>
         <Element Offset="512" Vartype="4 Bytes" Bytesize="4" RLECount="9" DisplayMethod="Unsigned Integer"/>
         <Element Offset="548" Vartype="4 Bytes" Bytesize="4" Description="CTR" DisplayMethod="Unsigned Integer"/>
@@ -10060,8 +9065,8 @@ luacall(timer_ch_value.destroy())
             </Elements>
           </Structure>
         </Element>
-        <Element Offset="604" Vartype="4 Bytes" Bytesize="4" Description="controls_enabled (normal=0, demo=2)" DisplayMethod="Signed Integer"/>
-        <Element Offset="608" Vartype="4 Bytes" Bytesize="4" Description="Black overlay" DisplayMethod="Unsigned Integer"/>
+        <Element Offset="604" Vartype="4 Bytes" Bytesize="4" Description="Sequencer Cinematic (0=none, 2=demo, 3=Idk but I saw it while transitioning to/from a demo) (Apparently, if not used properly then 2=always the same demo cinematic)" DisplayMethod="Signed Integer"/>
+        <Element Offset="608" Vartype="4 Bytes" Bytesize="4" Description="Overlay (from black when exiting portals, to/from white when N.Tropy teleports)" DisplayMethod="Unsigned Integer"/>
         <Element Offset="612" Vartype="4 Bytes" Bytesize="4" Description="Time to respawn + Death black overlay" DisplayMethod="Unsigned Integer"/>
         <Element Offset="616" Vartype="2 Bytes" Bytesize="2" Description="Deaths/Respawns counter 2" DisplayMethod="Hexadecimal"/>
         <Element Offset="620" Vartype="4 Bytes" Bytesize="4" DisplayMethod="Unsigned Integer"/>
@@ -11129,46 +10134,6 @@ luacall(timer_ch_value.destroy())
       </Elements>
     </Structure>
   </Structures>
-  <LuaScript>--SCRIPT BEGINNING
-
-function getCurrPlayer()
-  local offsetFormat = 0x80000000
-  local addressList = getAddressList()
-  local beginOffset = "mednafen_psx_hw_libretro.dll+765D20"
-  local levelOffset = "mednafen_psx_hw_libretro.dll+7CEB60"
-  local playerOffset = levelOffset .. "+58"
-  --local addr = getAddress(playerOffset)
-  local playerAddr = string.sub(string.format('%x', readInteger(playerOffset)), 3)
-  -- FIXME - Remove the type(first 2 bytes) from beginOffset.
-  -- FIXME - beginOffsetNoType .. "+" .. playerAddr .. "-" .. offsetFormat
-
-  --local memRec = adressList.createMemoryRecord()
-end
-
-function ch_value(timer_ch_value)
-           getAddressList().getMemoryRecordByDescription('script_value_to').Value = getAddressList().getMemoryRecordByDescription('script_value_from').Value
-end
-
-function timer_activate_ch_value()
-  timer_ch_value = createTimer(nil)
-  timer_ch_value.OnTimer = ch_value
-  timer_ch_value.Interval = 1000 --every 1 second
-  timer_ch_value.Enabled = true
-end
-
-function value_to_mouse(timer_value_to_mouse)
-         mouse_x, mouse_y = getMousePos()
-         getAddressList().getMemoryRecordByDescription('script_value_to_mouse_x').Value = mouse_x
-         getAddressList().getMemoryRecordByDescription('script_value_to_mouse_y').Value = mouse_y
-end
-
-function timer_activate_value_to_mouse()
-  timer_value_to_mouse = createTimer(nil)
-  timer_value_to_mouse.OnTimer = value_to_mouse
-  timer_value_to_mouse.Interval = 1000 --every 1 second
-  timer_value_to_mouse.Enabled = true
-end
-</LuaScript>
   <DisassemblerComments>
     <DisassemblerComment>
       <Address>"mednafen_psx_hw_libretro.dll"+8B13D0</Address>
